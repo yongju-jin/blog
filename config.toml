@@ -1,10 +1,13 @@
 baseURL = "https://yongju-jin.github.io/"
-theme = "hugo-geo"
+theme = "beautifulhugo"
 relativeURLs = false
 languageCode = "en-us"
-title = "yongju"
+title = "전문 초보 개발자"
 #disqusShortname = "shortcode-here"
-paginate = 5
+pygmentsStyle = "trac"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
 
 [taxonomies]
 	tag = "tags"
@@ -13,11 +16,41 @@ paginate = 5
 [params]
 	showglobe = true
 	favicon = "favicon.ico"
-	#analytics = "code-here"
-	email = "yong8521@gmail.com"
-	profilepic = "img/profile.jpeg"
+# 	analytics = "code-here"
+# 	email = "yong8521@gmail.com"
+# 	logo = "img/profile.jpeg"
 	title = "yongju's blog"
-	subtitle = "전문 초보 개발자의 블로그"
+	subtitle = "전문 초보 개발자의 기록"
+	commit = false
+  	rss = true
+  	comments = true
+  	readingTime = true
+  	wordCount = true
+  	useHLJS = true
+  	socialShare = true
+  	showRelatedPosts = true
+	
+	[Author]
+		email = "yong8521@gmail.com"
+		linkedin = "yongju"
+		github = "yongju-jin"
+		twitter = "y0n9ju"
+
+#	[[menu.main]]
+#    	name = "Blog"
+#    	url = ""
+#    	weight = 1
+
+#	[[menu.main]]
+#		name = "About"
+# 		url = "page/about/"
+#		weight = 3
+
+	[[menu.main]]
+    	name = "Tags"
+    	url = "tags"
+		weight = 3
+
 	# Social buttons for sidebar
 	# Each of these are optional
 	[[params.socialbuttons]]
