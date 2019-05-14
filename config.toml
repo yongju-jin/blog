@@ -8,6 +8,7 @@ pygmentsStyle = "trac"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
+googleAnalytucs = "UA-105304415-1"
 
 [taxonomies]
 	tag = "tags"
@@ -29,13 +30,17 @@ pygmentsCodefencesGuessSyntax = true
   	useHLJS = true
   	socialShare = true
   	showRelatedPosts = true
-	googleAnalytucs = "UA-105304415-1"
-	
-	[Author]
-		email = "yong8521@gmail.com"
-		linkedin = "yongju"
-		github = "yongju-jin"
-		twitter = "y0n9ju"
+	[params.Utteranc]
+		repo = "yongju-jin/blog-comments"
+		issue_term = "pathname"
+		label = "comment"
+		theme = "github-light"
+
+[Author]
+	email = "yong8521@gmail.com"
+	linkedin = "yongju"
+	github = "yongju-jin"
+	twitter = "y0n9ju"
 
 #	[[menu.main]]
 #    	name = "Blog"
@@ -47,31 +52,33 @@ pygmentsCodefencesGuessSyntax = true
 # 		url = "page/about/"
 #		weight = 3
 
-	[[menu.main]]
-    	name = "Tags"
-    	url = "tags"
-		weight = 3
+[[menu.main]]
+	name = "Tags"
+	url = "tags"
+	weight = 3
 
-	# Social buttons for sidebar
-	# Each of these are optional
-	[[params.socialbuttons]]
+# Social buttons for sidebar
+# Each of these are optional
+[[params.socialbuttons]]
 	faicon = "github"
 	url = "https://github.com/yongju-jin"
-	[[params.socialbuttons]]
+
+[[params.socialbuttons]]
 	faicon = "twitter"
 	url = "https://twitter.com/y0n9ju"
-	[[params.socialbuttons]]
+
+[[params.socialbuttons]]
 	faicon = "linkedin"
 	url = "https://www.linkedin.com/in/yongju/"
 
-	#[[params.navlinks]]
+#[[params.navlinks]]
 	#name = "About"
 	#url = "about"
 
-	[[params.navlinks]]
+[[params.navlinks]]
 	name = "Blog"
 	url = "post/"
 
-	#[[params.navlinks]]
+#[[params.navlinks]]
 	#name = "Tutorials"
 	#url = "tutorial/"
