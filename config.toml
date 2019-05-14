@@ -29,6 +29,7 @@ pygmentsCodefencesGuessSyntax = true
   	useHLJS = true
   	socialShare = true
   	showRelatedPosts = true
+	googleAnalytucs = "UA-105304415-1"
 	
 	[Author]
 		email = "yong8521@gmail.com"
