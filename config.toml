@@ -12,6 +12,7 @@ googleAnalytucs = "UA-105304415-1"
 
 [taxonomies]
 	tag = "tags"
+	about = "about"
 	#tutorial = "tutorials"
 
 [params]

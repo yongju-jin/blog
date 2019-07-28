@@ -12,7 +12,8 @@ draft: true
   
 ## 자기소개  
 ***
-안드로이드 개발자로 일하고 있는 진용주 입니다. Kotlin, Rx, Clean Architecture에 관심이 많습니다. 
+안드로이드 개발자로 일하고 있는 진용주 입니다.   
+Kotlin, Rx, Clean Architecture에 관심이 많습니다.   
 
 ## 경력
 ***
