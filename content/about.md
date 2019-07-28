@@ -5,16 +5,14 @@ draft: true
 ---
 # 진용주
 #### Android Developer
-#### email - yong8521@gmail.com  
+#### email - yong8521@gmail.com 
 #### github - https://github.com/yongju-jin
 #### blog - https://yongju-jin.github.io
-  
-  
-## 자기소개  
+<br/>
+## 자기소개 
 ***
-안드로이드 개발자로 일하고 있는 진용주 입니다.   
-Kotlin, Rx, Clean Architecture에 관심이 많습니다.   
-
+안드로이드 개발자로 일하고 있는 진용주 입니다. Kotlin, Rx, Clean Architecture에 관심이 많습니다. 
+<br/>
 ## 경력
 ***
 [와디즈] 2018.04 ~  
@@ -29,7 +27,7 @@ Kotlin, Rx, Clean Architecture에 관심이 많습니다.
 
 [엠브릿지] 2010.05 ~ 2011.09  
 단말에 적용된 안드로이드 프레임워크 및 pre-built app 버그 수정  
-
+<br/>
 ## Skill Set
 ***
 [Language]  

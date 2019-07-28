@@ -10,10 +10,10 @@ pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 googleAnalytucs = "UA-105304415-1"
 
-[taxonomies]
-	tag = "tags"
-	about = "about"
-	#tutorial = "tutorials"
+#[taxonomies]
+#	tag = "tags"
+#	about = "about"
+#   tutorial = "tutorials"
 
 [params]
 	showglobe = true
@@ -48,10 +48,10 @@ googleAnalytucs = "UA-105304415-1"
 #    	url = ""
 #    	weight = 1
 
-	[[menu.main]]
-		name = "About"
- 		url = "about"
-		weight = 2
+[[menu.main]]
+	name = "About"
+	url = "about"
+	weight = 2
 
 [[menu.main]]
 	name = "Tags"
