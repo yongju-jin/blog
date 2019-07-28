@@ -72,9 +72,9 @@ googleAnalytucs = "UA-105304415-1"
 	faicon = "linkedin"
 	url = "https://www.linkedin.com/in/yongju/"
 
-#[[params.navlinks]]
-	#name = "About"
-	#url = "about"
+[[params.navlinks]]
+	name = "About"
+	url = "about"
 
 [[params.navlinks]]
 	name = "Blog"
