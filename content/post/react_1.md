@@ -1,7 +1,7 @@
 ---
 title: "[TIL-React] #1"
 date: 2019-11-07T22:50:34+09:00
-draft: true
+draft: false
 tags: [til, react]
 ---
 ### component props 가져오기
