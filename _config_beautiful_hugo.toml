@@ -1,0 +1,85 @@
+baseURL = "https://yongju-jin.github.io/"
+theme = "LoveIt"
+relativeURLs = false
+languageCode = "en-us"
+title = "전문 초보 개발자"
+#disqusShortname = "shortcode-here"
+pygmentsStyle = "trac"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
+googleAnalytucs = "UA-105304415-1"
+
+#[taxonomies]
+#	tag = "tags"
+#	about = "about"
+#   tutorial = "tutorials"
+
+[params]
+	showglobe = true
+	favicon = "favicon.ico"
+# 	analytics = "code-here"
+# 	email = "yong8521@gmail.com"
+# 	logo = "img/profile.jpeg"
+	title = "yongju's blog"
+	subtitle = "전문 초보 개발자의 기록"
+	commit = false
+  	rss = true
+  	comments = true
+  	readingTime = true
+  	wordCount = true
+  	useHLJS = true
+  	socialShare = true
+  	showRelatedPosts = true
+	[params.Utteranc]
+		repo = "yongju-jin/blog-comments"
+		issue_term = "pathname"
+		label = "comment"
+		theme = "github-light"
+
+[Author]
+	email = "yong8521@gmail.com"
+	linkedin = "yongju"
+	github = "yongju-jin"
+	twitter = "y0n9ju"
+
+#	[[menu.main]]
+#    	name = "Blog"
+#    	url = ""
+#    	weight = 1
+
+[[menu.main]]
+	name = "About"
+	url = "about"
+	weight = 2
+
+[[menu.main]]
+	name = "Tags"
+	url = "tags"
+	weight = 3
+
+# Social buttons for sidebar
+# Each of these are optional
+[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/yongju-jin"
+
+[[params.socialbuttons]]
+	faicon = "twitter"
+	url = "https://twitter.com/y0n9ju"
+
+[[params.socialbuttons]]
+	faicon = "linkedin"
+	url = "https://www.linkedin.com/in/yongju/"
+
+[[params.navlinks]]
+	name = "About"
+	url = "about"
+
+[[params.navlinks]]
+	name = "Blog"
+	url = "post/"
+
+#[[params.navlinks]]
+	#name = "Tutorials"
+	#url = "tutorial/"

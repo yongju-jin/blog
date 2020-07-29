@@ -1,36 +1,26 @@
 baseURL = "https://yongju-jin.github.io/"
-theme = "beautifulhugo"
-relativeURLs = false
-languageCode = "en-us"
+defaultContentLangugae = "en"
+theme = "LoveIt"
+languageCode = "en"
 title = "전문 초보 개발자"
-#disqusShortname = "shortcode-here"
-pygmentsStyle = "trac"
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-pygmentsCodefencesGuessSyntax = true
 googleAnalytucs = "UA-105304415-1"
-
-#[taxonomies]
-#	tag = "tags"
-#	about = "about"
-#   tutorial = "tutorials"
+contentDir = "content/notes"
 
 [params]
-	showglobe = true
-	favicon = "favicon.ico"
-# 	analytics = "code-here"
+    version = "0.2.X"
+    keywords = ["Kotlin", "Android"]
+    description = "전문 초보 개발자의 기록"
+    defaultTheme = "dark"
 # 	email = "yong8521@gmail.com"
 # 	logo = "img/profile.jpeg"
-	title = "yongju's blog"
-	subtitle = "전문 초보 개발자의 기록"
+	title = "전문 초보 개발자의 기록"
 	commit = false
   	rss = true
   	comments = true
-  	readingTime = true
-  	wordCount = true
-  	useHLJS = true
-  	socialShare = true
-  	showRelatedPosts = true
+    [params.app]
+	    title = "전문 초보 개발자의 기록"
+        noFavicon = false
+        svgFavicon = "favicon.ico"
 	[params.Utteranc]
 		repo = "yongju-jin/blog-comments"
 		issue_term = "pathname"
@@ -43,20 +33,27 @@ googleAnalytucs = "UA-105304415-1"
 	github = "yongju-jin"
 	twitter = "y0n9ju"
 
-#	[[menu.main]]
-#    	name = "Blog"
-#    	url = ""
-#    	weight = 1
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Posts"
+        url = "/posts"
+        # title will be shown when you hover on this menu link
+        title = ""
+        weight = 1
+    [[menu.main]]
+        name = "About"
+        url = "/about"
+        weight = 2
 
-[[menu.main]]
-	name = "About"
-	url = "about"
-	weight = 2
-
-[[menu.main]]
-	name = "Tags"
-	url = "tags"
-	weight = 3
+    [[menu.main]]
+        name = "Tags"
+        url = "/tags"
+        weight = 3
 
 # Social buttons for sidebar
 # Each of these are optional
@@ -80,6 +77,9 @@ googleAnalytucs = "UA-105304415-1"
 	name = "Blog"
 	url = "post/"
 
-#[[params.navlinks]]
-	#name = "Tutorials"
-	#url = "tutorial/"
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
